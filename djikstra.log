@@ -1,0 +1,35 @@
+# Now, target is: A
+Found a neighbor: B
+Changing the distance from start to this neighbor to 3.0
+Now this neighbor will point toA
+# Now, target is: B
+Found a neighbor: C
+Changing the distance from start to this neighbor to 10.0
+Now this neighbor will point toB
+Found a neighbor: D
+Changing the distance from start to this neighbor to 32.0
+Now this neighbor will point toB
+# Now, target is: C
+Found a neighbor: D
+Changing the distance from start to this neighbor to 15.0
+Now this neighbor will point toC
+# Now, target is: D
+Found a neighbor: E
+Changing the distance from start to this neighbor to 18.0
+Now this neighbor will point toD
+Found a neighbor: F
+Changing the distance from start to this neighbor to 82.0
+Now this neighbor will point toD
+# Now, target is: E
+Found a neighbor: F
+Changing the distance from start to this neighbor to 27.0
+Now this neighbor will point toE
+# Now, target is: F
+Found a neighbor: G
+Changing the distance from start to this neighbor to 29.0
+Now this neighbor will point toF
+Found a neighbor: H
+Changing the distance from start to this neighbor to 39.0
+Now this neighbor will point toF
+# Now, target is: G
+# Now, target is: H

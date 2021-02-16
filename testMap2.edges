@@ -1,0 +1,10 @@
+% Sample graph for testing
+A B 3
+B C 7
+B D 29
+C D 5
+D E 3
+D F 67
+E F 9
+F G 2
+F H 12
