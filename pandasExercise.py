@@ -43,6 +43,7 @@ if __name__ == '__main__':
 
     # problem d
     exercise1.draw("age")
+    print("Graph of age distribution will be shown in SciView window.")
 
 
 
