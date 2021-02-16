@@ -265,11 +265,14 @@ class Graph() :
             nextNode = searchQueue.pop(0)
             nextNodeNeighbors = self.getNeighborNodes(nextNode)
             isInClique = True
+
+            # Only add node when it is neighbor of everything in clique
             for node in cliqueList:
                 if node not in nextNodeNeighbors:
                     isInClique = False
             if isInClique:
                 cliqueList.append(nextNode)
+                # All neighbors of new member becomes member on queue
                 for neighbor in nextNodeNeighbors:
                     searchQueue.append(neighbor)
 
@@ -282,6 +285,10 @@ if __name__ == '__main__':
     graph1.readFromFile("testMap.edges")
     graph2 = Graph()
     graph2.readFromFile("testMap2.edges")
+
+    # Since graph 2 is better than graph 1 all tests below will use graph 2.
+    # Answer# is number of problem related to the test (4-1, 4-2, etc.)
+
     answer1 = graph2.breadthFirstSearch("A", "H")
     print("breadthFirstSearch result: "+"->".join(answer1))
     answer2 = graph2.depthFirstSearch("A","H")
